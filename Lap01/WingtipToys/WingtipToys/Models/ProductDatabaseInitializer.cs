@@ -10,7 +10,8 @@ namespace WingtipToys.Models
     {
         protected override void Seed (ProductContext context)
         {
-            base.Seed(context);
+            GetCategories().ForEach(c => context.Categories.Add(c));
+            GetProducts().ForEach(p => context.Products.Add(p));
         }
 
         private static List<Category> GetCategories()

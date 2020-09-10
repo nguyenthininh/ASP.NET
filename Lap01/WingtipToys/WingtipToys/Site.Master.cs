@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using WingtipToys.Models;
 
 namespace WingtipToys
 {
@@ -13,5 +14,16 @@ namespace WingtipToys
         {
 
         }
+        public IQueryable<Category> GetCategories()
+        {
+            var _db = new WingtipToys.Models.ProductContext();
+            IQueryable<Category> query = _db.Categories;
+            return query;
+        }
+
+        //protected long categoryList_GetData()
+        //{
+
+        //}
     }
 }
