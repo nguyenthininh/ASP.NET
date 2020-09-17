@@ -1,0 +1,45 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        @foreach (var product in Model.Products)
+        {
+            <div class="col-lg-4 anh">
+                <div style="border: 1px;">
+                    <img src="@product.Image" class="card_image">
+                    <p class="card_name">@product.Title</p>
+                    <div class="grid-container">
+                        <div class="grid-child-posts">
+                            156 Post
+                        </div>
+
+                        <div class="grid-child-followers">
+                            1012 Likes
+                        </div>
+                    </div>
+                    <ul class="social-icons">
+
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa fa-codepen"></i></a></li>
+                    </ul>
+                    <button class="btn draw-border">More Info</button>
+                </div>
+                
+            </div>
+        }
+    </div>
+    
+</div>
+   
