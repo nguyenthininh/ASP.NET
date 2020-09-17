@@ -23,6 +23,7 @@ namespace HelloMVC
                 name: "Hello",
                 url: "{controller}/{action}/{name}/{numTimes}"
                 );
+           
         }
     }
 }

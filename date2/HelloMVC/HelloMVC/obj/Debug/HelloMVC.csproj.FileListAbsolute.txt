@@ -155,7 +155,6 @@ D:\SEM3\ASP.NET\date2\HelloMVC\HelloMVC\bin\System.Web.WebPages.Razor.xml
 D:\SEM3\ASP.NET\date2\HelloMVC\HelloMVC\bin\Newtonsoft.Json.xml
 D:\SEM3\ASP.NET\date2\HelloMVC\HelloMVC\bin\Antlr3.Runtime.pdb
 D:\SEM3\ASP.NET\date2\HelloMVC\HelloMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\SEM3\ASP.NET\date2\HelloMVC\HelloMVC\obj\Debug\HelloMVC.csprojAssemblyReference.cache
 D:\SEM3\ASP.NET\date2\HelloMVC\HelloMVC\obj\Debug\HelloMVC.csproj.CoreCompileInputs.cache
 D:\SEM3\ASP.NET\date2\HelloMVC\HelloMVC\obj\Debug\HelloMVC.csproj.CopyComplete
 D:\SEM3\ASP.NET\date2\HelloMVC\HelloMVC\obj\Debug\HelloMVC.dll
