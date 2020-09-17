@@ -1,0 +1,2 @@
+D:\SEM3\ASP.NET\date1\GolfClub\GolfClub\obj\Debug\GolfClub.csprojAssemblyReference.cache
+D:\SEM3\ASP.NET\date1\GolfClub\GolfClub\obj\Debug\GolfClub.csproj.CoreCompileInputs.cache
