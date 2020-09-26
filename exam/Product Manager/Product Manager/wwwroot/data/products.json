@@ -1,0 +1,44 @@
+[
+  {
+    "Id": "product-01",
+    "Name": "Hop Thai Binh",
+    "Price": 350000,
+    "Image": "https://banhthuhuong.vn/wp-content/uploads/2020/08/THB-MC2020-Social_HoP-HOa-HoN-inside2-416x416.jpg"
+
+  },
+  {
+    "Id": "product-02",
+    "Name": "Hop Phung",
+    "Price": 300000,
+    "Image": "https://banhthuhuong.vn/wp-content/uploads/2020/08/THB-MC2020-Social_HoP-PHuNG-KHi-box-416x416.jpg"
+
+  },
+  {
+    "Id": "product-03",
+    "Name": "Hop Thu Phuong",
+    "Price": 400000,
+    "Image": "https://banhthuhuong.vn/wp-content/uploads/2019/07/thu-huong-X1-324x324.jpg"
+
+  },
+  {
+    "Id": "product-04",
+    "Name": "Hop Loc Thuy",
+    "Price": 460000,
+    "Image": "https://banhthuhuong.vn/wp-content/uploads/2019/07/IMG_0591-416x416.jpg"
+
+  },
+  {
+    "Id": "product-05",
+    "Name": "Hop Thai Binh",
+    "Price": 4500000,
+    "Image": "https://banhthuhuong.vn/wp-content/uploads/2020/08/THB-MC2020-Social_HoP-daC-diA-box-416x416.jpg"
+
+  },
+  {
+    "Id": "product-06",
+    "Name": "Hop Thanh Van",
+    "Price": 550000,
+    "Image": "https://banhthuhuong.vn/wp-content/uploads/2020/08/THB-MC2020-Social_HoP-VaN-THUy-box--416x416.jpg"
+
+  }
+]
