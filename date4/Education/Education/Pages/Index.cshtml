@@ -1,4 +1,5 @@
 ﻿@page
+@using Education.Components
 @model IndexModel
 @{
     ViewData["Title"] = "Home page";
@@ -9,37 +10,60 @@
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
 
+@(await Html.RenderComponentAsync<ProductList>(RenderMode.ServerPrerendered))
 
-<div class="container">
-    <div class="row">
-        @foreach (var product in Model.Products)
-        {
-            <div class="col-lg-4 anh">
-                <div style="border: 1px;">
-                    <img src="@product.Image" class="card_image">
-                    <p class="card_name">@product.Title</p>
-                    <div class="grid-container">
-                        <div class="grid-child-posts">
-                            156 Post
-                        </div>
+<script src="_framework/blazor.server.js"></script>
 
-                        <div class="grid-child-followers">
-                            1012 Likes
+@*<div class="container">
+        <div class="row">
+            @foreach (var product in Model.Products)
+            {
+                <div class="col-lg-4 anh">
+                    <div style="border: 1px;">
+                        <img src="@product.Image" class="card_image">
+                        <p class="card_name">@product.Title</p>
+                        <div class="grid-container">
+                            <div class="grid-child-posts">
+                                156 Post
+                            </div>
+
+                            <div class="grid-child-followers">
+                                1012 Likes
+                            </div>
                         </div>
+                        <ul class="social-icons">
+
+                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-codepen"></i></a></li>
+                        </ul>
+                        <button class="btn draw-border">More Info</button>
                     </div>
-                    <ul class="social-icons">
 
-                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="#"><i class="fa fa-codepen"></i></a></li>
-                    </ul>
-                    <button class="btn draw-border">More Info</button>
                 </div>
-                
+            }
+        </div>
+
+    </div>*@
+
+@*<div class="card-columns">
+    @foreach (var product in Model.Products)
+    {
+        <div class="card">
+            <div class="card-img">
+                <img src="@product.Image" style="height: 300px;width:100%;">
             </div>
-        }
-    </div>
-    
-</div>
-   
+            <div class="card-body">
+                <h5 class="card-title">@product.Title</h5>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">
+                    <button data-toggle="modal" data-target="#productModal" class="btn btn-primary">
+                        More Info
+                    </button>
+                </small>
+            </div>
+        </div>
+    }
+</div>*@

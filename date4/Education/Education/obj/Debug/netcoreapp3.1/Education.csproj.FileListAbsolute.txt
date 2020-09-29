@@ -35,3 +35,7 @@ D:\SEM3\ASP.NET\date4\Education\Education\obj\Debug\netcoreapp3.1\Education.dll
 D:\SEM3\ASP.NET\date4\Education\Education\obj\Debug\netcoreapp3.1\Education.pdb
 D:\SEM3\ASP.NET\date4\Education\Education\obj\Debug\netcoreapp3.1\Education.genruntimeconfig.cache
 D:\SEM3\ASP.NET\date4\Education\Education\obj\Debug\netcoreapp3.1\Education.csproj.CopyComplete
+D:\SEM3\ASP.NET\date4\Education\Education\obj\Debug\netcoreapp3.1\Education.RazorComponent.input.cache
+D:\SEM3\ASP.NET\date4\Education\Education\obj\Debug\netcoreapp3.1\RazorDeclaration\Components\ProductList.razor.g.cs
+D:\SEM3\ASP.NET\date4\Education\Education\obj\Debug\netcoreapp3.1\RazorDeclaration\Education.dll
+D:\SEM3\ASP.NET\date4\Education\Education\obj\Debug\netcoreapp3.1\Razor\Components\ProductList.razor.g.cs
